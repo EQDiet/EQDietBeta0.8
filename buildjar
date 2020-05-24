@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/sh
 cd target/classes
 if [[ ! -d "META-INF" ]]
 then

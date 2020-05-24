@@ -23,3 +23,9 @@ jobs:
       run: ./mvnw -B package --file pom.xml
     - name: Build with Maven Wrapper (test 2)
       run: ./mvnw -B clean install
+    - name: Build with Maven Wrapper (test 3)
+      run: ./mvnw -B clean compile
+    - name: Grant execution permission for buildjar
+      run: chmod +x buildjar
+    - name: Create JAR file
+      run: ./buildjar

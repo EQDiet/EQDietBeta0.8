@@ -24,4 +24,4 @@ jobs:
     - name: Grant execution permission for buildjar
       run: chmod 755 buildjar
     - name: Create JAR file
-      run: ./buildjar
+      run: ./buildjar.sh

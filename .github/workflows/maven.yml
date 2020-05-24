@@ -21,3 +21,5 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Build with Maven (test 2)
       run: mvn -B clean install
+    - name: Create JAR file
+      run: ./buildjar

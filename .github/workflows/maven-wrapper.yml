@@ -20,6 +20,6 @@ jobs:
     - name: Grant execute permission for mvnw
       run: chmod +x mvnw
     - name: Build with Maven Wrapper (test 1)
-      run: ./mvnw -B package --file pom.xml
+      run: ./mvnw package --file pom.xml
     - name: Build with Maven Wrapper (test 2)
       run: ./mvnw clean install

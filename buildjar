@@ -1,14 +1,12 @@
 #!/bin/sh
 cd target/classes
-if [ ! -d "META-INF" ]
-then
+if [ ! -d "META-INF" ] ; then
     mkdir META-INF
 fi
 echo Manifest-Version: 1.0 >META-INF/MANIFEST.MF
 echo Class-Path: . >>META-INF/MANIFEST.MF
 echo Main-Class: EQDietBeta08 >>META-INF/MANIFEST.MF
-if [ ! -d "../../Release" ]
-then
+if [ ! -d "../../Release" ] ; then
     mkdir ../../Release
 fi
 jar cvmf META-INF/MANIFEST.MF ../../Release/EQDietBeta0.8.jar *.class

@@ -23,7 +23,7 @@ jobs:
       run: mvn -B clean install
     - name: Build with Maven (test 3)
       run: mvn -B clean compile
-    - name: Grant execution permission for buildjar
+    - name: Grant execute permission for buildjar
       run: chmod +x buildjar
     - name: Create JAR file
       run: ./buildjar

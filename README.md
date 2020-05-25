@@ -1,9 +1,9 @@
-# EQDiet Alpha Mobile 0.1
+# EQDiet Beta 0.8
 EQDiet: Free Open-source Healthy Diet App
 
-Welcome to EQDiet Alpha Mobile version 0.1. Hope you enjoy using our app! You can visit our website [here](https://eqdiet.weebly.com)
+Welcome to EQDiet Beta 0.8. Hope you enjoy using our app! You can visit our website [here](https://eqdiet.weebly.com)
 
-To know more about this release, visit [this link](https://eqdiet.weebly.com/release-notes/released-eqdiet-alpha-mobile-01)
+To know more about this release, visit [this link](https://eqdiet.weebly.com/release-notes/released-eqdiet-beta-08)
 
 ![Image of EQDiet](https://eqdiet.weebly.com/uploads/1/2/2/7/122786941/eqdiet_orig.png)
 
@@ -11,12 +11,11 @@ To know more about this release, visit [this link](https://eqdiet.weebly.com/rel
 
 ### Requirements:
 
-- Latest Java SE Development Kit (JDK). Click [here](https://bit.ly/javadevelopmentkit) if you don't have it.
+- Java SE Development Kit (JDK) >= 1.8. Click [here](https://bit.ly/javadevelopmentkit) if you don't have it.
 
 ### Build status:
 
-[![Android CI](https://github.com/EQDiet/EQDietAlphaMobile0.1/workflows/Android%20CI/badge.svg)](https://github.com/EQDiet/EQDietAlphaMobile0.1/actions?query=workflow%3A%22Android+CI%22) [![Java CI with Gradle](https://github.com/EQDiet/EQDietAlphaMobile0.1/workflows/Java%20CI%20with%20Gradle/badge.svg)](https://github.com/EQDiet/EQDietAlphaMobile0.1/actions?query=workflow%3A%22Java+CI+with+Gradle%22) [![Android CI assembleDebug](https://github.com/EQDiet/EQDietAlphaMobile0.1/workflows/Android%20CI%20assembleDebug/badge.svg)](https://github.com/EQDiet/EQDietAlphaMobile0.1/actions?query=workflow%3A%22Android+CI+assembleDebug%22)
-
+[![Java CI with Maven](https://github.com/EQDiet/EQDietBeta0.8/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/EQDiet/EQDietBeta0.8/actions?query=workflow%3A%22Java+CI+with+Maven%22) [![Java CI with Gradle](https://github.com/EQDiet/EQDietAlphaMobile0.1/workflows/Java%20CI%20with%20Gradle/badge.svg)](https://github.com/EQDiet/EQDietAlphaMobile0.1/actions?query=workflow%3A%22Java+CI+with+Gradle%22)
 ### Procedure:
 
 1. Set Java JDK bin folder to PATH. View [this video](https://www.youtube.com/watch?v=vhBNV8no4CI) if you don't know how to do it (only Windows).

@@ -5,7 +5,7 @@ Welcome to EQDiet Alpha version 0.25. Hope you enjoy using our app! You can visi
 
 To know more about this release, visit [this link](https://eqdiet.weebly.com/release-notes/released-version-alpha-025)
 
-[![Image of EQDiet]()](https://eqdiet.weebly.com/uploads/1/2/2/7/122786941/eqdiet_orig.png)
+![Image of EQDiet](https://eqdiet.weebly.com/uploads/1/2/2/7/122786941/eqdiet_orig.png)
 
 ## Building source code:
 

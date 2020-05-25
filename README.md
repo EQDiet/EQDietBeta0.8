@@ -29,7 +29,14 @@ To know more about this release, visit [this link](https://eqdiet.weebly.com/rel
 8. Run `mvnw.bat install` on Windows or `./mvnw install` on Linux. This is the full compilation method and we recommend it. However, you can run `mvnw.bat compile` on Windows or `./mvnw compile` on Linux for a quick compilation method.
 9. Run `buildjar.bat` on Windows or `chmod +x buildjar && ./buildjar` on Linux to generate the JAR file (at the Release folder)
 10. Download Launch4j through [this link](https://eqdiet.weebly.com/uploads/1/2/2/7/122786941/launch4j-3.12-win32.exe)
-11. Coming soon...
+11. Install Launch4j and open it.
+12. Choose "Output file" option to the folder you want and with the executable name with .exe extansion you want.
+13. Choose "Jar" option to the Release folder you generated and the JAR file name with .jar extension.
+14. Choose "Icon" option to the EQDiet icon you just have downloaded.
+15. Go to JRE tab and write "1.8" in the "Min JRE version" option.
+16. Click "Save configuration" icon.It will write a XML file. Choose the name you want. When you compile the EXE file, you can delete it.
+17. Click "Build wrapper" icon.
+18. Done! Check the EXE output folder you have selected and now you will have an official copy of EQDiet Beta 0.8!
 
 ### Note this project is protected by the MIT License. You can read it [here](https://github.com/EQDiet/EQDietBeta0.8/blob/master/LICENSE).
 #### © 2020, EQDiet.

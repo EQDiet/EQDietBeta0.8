@@ -1,5 +1,6 @@
 @echo off
 cd target\classes
+if not exist META-INF (mkdir META-INF)
 echo Manifest-Version: 1.0>META-INF\MANIFEST.MF
 echo Class-Path: .>>META-INF\MANIFEST.MF
 echo Main-Class: EQDietBeta08>>META-INF\MANIFEST.MF

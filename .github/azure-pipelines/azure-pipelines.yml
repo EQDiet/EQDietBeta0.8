@@ -5,6 +5,6 @@ jobs:
     vmImage: 'ubuntu-20.04'
   steps:
   - bash: |
-    chmod +x mvnw
-    ./mvnw install
-    
+     chmod +x mvnw
+     ./mvnw install
+    displayName: Building with Maven

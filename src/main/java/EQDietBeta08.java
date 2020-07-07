@@ -1,5 +1,5 @@
 /**
- * EQDiet Beta 0.8 Main Class (ver 05/23/2020).
+ * EQDiet Beta 0.8 (release date: 05/23/2020. Last mofidication date: 07/07/2020).
  * A free open-source healthy diet app coded by Daniel Lopez Tena.
  * (C) 2020, EQDiet and Daniel Lopez Tena.
  * Website: https://eqdiet.weebly.com
@@ -470,8 +470,8 @@ public final class EQDietBeta08 extends javax.swing.JFrame{
             grams = jTextField2.getText();
             quantity = Long.parseLong(grams);
             try {
-                for(int i = 0; i <= database.foodonly.length; i++) {
-                    if(database.foodonly[i].equals((dish).toLowerCase())) {
+                for (int i = 0; i <= database.foodonly.length; i++) {
+                    if (database.foodonly[i].equals((dish).toLowerCase())) {
                     fooddb = database.foodonly[i].toLowerCase();
                     finalkcal = database.kcalonly[i] * quantity / 100;
                     jLabel5.setText("You have eaten " + finalkcal + " kilocalories");
@@ -487,7 +487,7 @@ public final class EQDietBeta08 extends javax.swing.JFrame{
                 jLabel5.setText("Error:");
                 jLabel9.setText("The specified food does not actually exist");
             }
-        } catch(NumberFormatException nex){
+        } catch (NumberFormatException nex) {
             jLabel5.setText("Error:");
             jLabel9.setText("The quantity you specified isn't a number");
         }
@@ -562,9 +562,6 @@ public final class EQDietBeta08 extends javax.swing.JFrame{
     public static void main(String[] args){
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {

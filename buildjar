@@ -1,5 +1,7 @@
 #!/bin/sh
 cd target/classes
+echo Building EQDietBeta0.8.jar...
+echo
 if [ ! -d "META-INF" ] ; then
     mkdir META-INF
 fi

@@ -15,7 +15,7 @@ To know more about this release, visit [this link](https://eqdiet.weebly.com/rel
 
 ### Build status:
 
-[![Java CI with Maven](https://github.com/EQDiet/EQDietBeta0.8/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/EQDiet/EQDietBeta0.8/actions?query=workflow%3A%22Java+CI+with+Maven%22) [![Java CI with Maven Wrapper](https://github.com/EQDiet/EQDietBeta0.8/workflows/Java%20CI%20with%20Maven%20Wrapper/badge.svg)](https://github.com/EQDiet/EQDietBeta0.8/actions?query=workflow%3A%22Java+CI+with+Maven+Wrapper%22)
+[![Java CI with Maven](https://github.com/EQDiet/EQDietBeta0.8/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/EQDiet/EQDietBeta0.8/actions?query=workflow%3A%22Java+CI+with+Maven%22) [![Java CI with Maven Wrapper](https://github.com/EQDiet/EQDietBeta0.8/workflows/Java%20CI%20with%20Maven%20Wrapper/badge.svg)](https://github.com/EQDiet/EQDietBeta0.8/actions?query=workflow%3A%22Java+CI+with+Maven+Wrapper%22) [![Build status](https://ci.appveyor.com/api/projects/status/6l4q16pbxa8lv55k?svg=true)](https://ci.appveyor.com/project/EQDiet/EQDietBeta-08) [![Build Status](https://dev.azure.com/EQDiet/GitHub/_apis/build/status/EQDiet.EQDietBeta0.8?branchName=master)](https://dev.azure.com/EQDiet/GitHub/_build/latest?definitionId=1&branchName=master)
 ### Procedure:
 
 1. Set Java JDK bin folder to PATH. View [this video](https://www.youtube.com/watch?v=vhBNV8no4CI) if you don't know how to do it (only Windows).

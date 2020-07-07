@@ -1,6 +1,5 @@
 jobs:
 - job: Ubuntu
-  timeoutInMinutes: 10
   pool:
     vmImage: 'ubuntu-latest'
   steps:
@@ -14,7 +13,6 @@ jobs:
     displayName: Building JAR file
     
 - job: Windows
-  timeoutInMinutes: 10
   pool:
     vmImage: 'windows-latest'
   steps:

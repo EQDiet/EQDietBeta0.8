@@ -2,9 +2,23 @@ jobs:
 - job: Ubuntu
   timeoutInMinutes: 10
   pool:
-    vmImage: 'ubuntu-20.04'
+    vmImage: 'ubuntu-latest'
   steps:
   - bash: |
      chmod +x mvnw
      ./mvnw install
     displayName: Building with Maven
+  - bash: |
+     chmod +x buildjar
+     ./buildjar
+    displayName: Building JAR file
+    
+- job: Windows
+  timeoutInMinutes: 10
+  pool:
+    vmImage: 'windows-latest'
+  steps:
+  - script: mvnw.bat install
+    displayName: Building with Maven
+  - script: buildjar.bat
+    displayName: Building JAR file

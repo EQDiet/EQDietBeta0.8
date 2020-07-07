@@ -1,5 +1,7 @@
 @echo off
 pushd target\classes
+echo Building EQDietBeta0.8.jar...
+echo.
 if not exist META-INF (mkdir META-INF)
 echo Manifest-Version: 1.0>META-INF\MANIFEST.MF
 echo Class-Path: .>>META-INF\MANIFEST.MF

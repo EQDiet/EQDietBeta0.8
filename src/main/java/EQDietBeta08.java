@@ -5,7 +5,7 @@
  * Website: https://eqdiet.weebly.com
  * This program comes with NO WARANTY. It's safe but use it at your own risk.
  * Project protected by the MIT license.
- * See our GitHub repositories for more information.
+ * See our GitHub repositories for more information. (github.com/EQDiet)
  */
 
 import java.io.BufferedWriter;

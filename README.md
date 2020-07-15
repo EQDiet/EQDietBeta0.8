@@ -39,4 +39,4 @@ To know more about this release, visit [this link](https://eqdiet.weebly.com/rel
 18. Done! Check the EXE output folder you have selected and now you will have an official copy of EQDiet Beta 0.8!
 
 ### Note this project is protected by the MIT License. You can read it [here](https://github.com/EQDiet/EQDietBeta0.8/blob/master/LICENSE).
-**© 2020, EQDiet. - [eqdiet.weebly.com](https://eqdiet.weebly.com)
+**© 2020, EQDiet. - [eqdiet.weebly.com](https://eqdiet.weebly.com)**

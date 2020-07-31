@@ -11,7 +11,7 @@ To know more about this release, visit [this link](https://eqdiet.weebly.com/rel
 
 ### Requirements:
 
-- Java SE Development Kit (JDK) >= 1.8. Click [here](https://bit.ly/javadevelopmentkit) if you don't have it.
+- Java SE Development Kit (JDK) >= 1.8. Click [here](https://lumi.gq/jdk) if you don't have it.
 
 ### Build status:
 

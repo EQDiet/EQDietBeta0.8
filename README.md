@@ -7,16 +7,16 @@ To know more about this release, visit [this link](https://eqdiet.weebly.com/rel
 
 ![Image of EQDiet](https://eqdiet.weebly.com/uploads/1/2/2/7/122786941/eqdiet_orig.png)
 
-## Building source code:
+## Building source code
 
-### Requirements:
+### Requirements
 
 - Java SE Development Kit (JDK) >= 1.8. Click [here](https://lumi.gq/jdk) if you don't have it.
 
-### Build status:
+### Build status
 
 [![Java CI with Maven](https://github.com/EQDiet/EQDietBeta0.8/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/EQDiet/EQDietBeta0.8/actions?query=workflow%3A%22Java+CI+with+Maven%22) [![Java CI with Maven Wrapper](https://github.com/EQDiet/EQDietBeta0.8/workflows/Java%20CI%20with%20Maven%20Wrapper/badge.svg)](https://github.com/EQDiet/EQDietBeta0.8/actions?query=workflow%3A%22Java+CI+with+Maven+Wrapper%22) [![Build status](https://ci.appveyor.com/api/projects/status/6l4q16pbxa8lv55k?svg=true)](https://ci.appveyor.com/project/EQDiet/EQDietBeta-08) [![Build Status](https://dev.azure.com/EQDiet/GitHub/_apis/build/status/EQDiet.EQDietBeta0.8?branchName=master)](https://dev.azure.com/EQDiet/GitHub/_build/latest?definitionId=1&branchName=master)
-### Procedure:
+### Procedure
 
 1. Set Java JDK bin folder to PATH. View [this video](https://www.youtube.com/watch?v=vhBNV8no4CI) if you don't know how to do it (only Windows).
 2. Set JAVA_HOME variable. This is the path to your java folder (e.g. `C:\Program files\Java\jdk1.8.0_251`). BE CAREFUL! It's not the bin folder (e.g. It's NOT: `C:\Program files\Java\jdk1.8.0_251\bin`). It's HIGHLY recommended to create it in the global variables as shown on the video at the step 1, but you can set it temporarily at command prompt or terminal with the `set` command.
@@ -38,5 +38,5 @@ To know more about this release, visit [this link](https://eqdiet.weebly.com/rel
 17. Click "Build wrapper" icon.
 18. Done! Check the EXE output folder you have selected and now you will have an official copy of EQDiet Beta 0.8!
 
-### Note this project is protected by the MIT License. You can read it [here](https://github.com/EQDiet/EQDietBeta0.8/blob/master/LICENSE).
+### Note this project is protected by the MIT License. You can read it [here](https://github.com/EQDiet/EQDietBeta0.8/blob/master/LICENSE)
 **© 2020, EQDiet. - [eqdiet.weebly.com](https://eqdiet.weebly.com)**
